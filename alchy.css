@@ -87,15 +87,29 @@ p{
 	font-size: 12px;
 	padding-top: 5px;
 }
-/*.alchy-enterprise{
-	margin-top: none;
-}*/
+.border3{
+	border: 2px #ffffff solid;
+	border-top: none;
+	border-bottom: none;
+	border-left: none;
+	position: absolute;
+	top: 565px;
+	left: 600px;
+	height: 30px;
+}
+h5{
+	text-align: center;
+	color: #ffffff;
+	position: absolute;
+	top: 660px;
+	left: 560px;
+}
 .orange-background {
 	width: 390px;
 	height: 400px;
 	background-color: orange;
 	margin-left: 900px;
-	margin-top: none;
+	padding-top: none;
 }	
 .about-image{
 	position: absolute;
@@ -269,7 +283,7 @@ p{
 	top: 2350px;
 	left: 850px;
 }
-.message {
+.message{
 	position: absolute;
 	top: 2400px;
 	left: 600px;
@@ -280,7 +294,7 @@ p{
 	text-decoration-color: #ffffff;
 	position: absolute;
 	top: 2450px;
-	left: 600px; 
+	left: 600px;
 }
 .red-div{
 	background-color: #dd0f0f;

@@ -36,6 +36,11 @@
 		</div>
 			<h3>PRECISE DESIGNS</h3>
 			<p>Pellentesque vehicula sem vel nulla tincidunt facilisis. Proin ac nulla <br> maximus ante various pretium. Morbi vitae sapien id augue faucicus <br> ultrices ut sed enim.</p>
+
+			<div class="border3">
+			</div>
+
+			<h5>KEEP <br> SCROLLING</h5>
 	</header>
 
 	<div class="alchy-enterprise">
@@ -186,7 +191,7 @@
 			</div>
 			<div class="message">
 				<h6>Message</h6>
-				<input type="text">
+				<input type="text" style=" width: 480px;">
 			</div>
 			<button type="button" class="send-message" style="color: #ffffff;">SendMessage</button>		
 	</div>
@@ -207,8 +212,25 @@
 		</div>
 
 		<div class="last-button">
-			<button type="button"> Back to top</button>
+			<button onclick="topFunction()" type="button"> Back to top</button>
 		</div>
+
+		<script>
+			window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			document.getElementById("myBtn").style.display = "block";
+			} else {
+			document.getElementById("myBtn").style.display = "none";
+			}
+			}
+
+			function topFunction() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+			}
+			</script>
 	</div>
 
 </body>
